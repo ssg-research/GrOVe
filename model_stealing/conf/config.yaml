@@ -1,0 +1,18 @@
+defaults:
+  - target_model: gat
+  - independent_model: gat
+  - surrogate_model: gat
+
+attack:
+  overlap: False
+  recovery_from: embedding
+  structure: original
+  delete_edges: 'no'
+  transform: 'TSNE'
+  robustness: 'simple_extraction'
+
+
+gpu: 0
+dataset: dblp
+experiment_id: 0
+surrogate_id: 0

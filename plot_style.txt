@@ -1,0 +1,47 @@
+xtick.color: 323034
+ytick.color: 323034
+text.color: 323034
+
+# Scatterplots
+lines.linewidth: 2
+lines.markeredgecolor: black
+lines.markersize: 5
+scatter.edgecolors: black
+
+# For edges on bars
+patch.facecolor: bc80bd
+patch.force_edgecolor: True
+patch.linewidth: 0.8
+
+# Font settings
+mathtext.fontset: stix
+font.family: STIXGeneral
+axes.titlesize: 24
+legend.title_fontsize: 18
+xtick.labelsize: 16
+ytick.labelsize: 16
+axes.labelsize: 18
+font.size: 14
+text.usetex: True
+
+# Legend settings
+legend.frameon: True
+legend.framealpha: 0.8
+legend.fontsize: 12
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing:  0.4
+
+grid.color: b1afb5
+axes.titlelocation: center
+axes.formatter.use_mathtext: True
+axes.labelpad: 3
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 0.6
+axes.spines.right : False
+axes.spines.top : False
+axes.grid: False
+figure.titlesize: 18
+#figure.dpi: 300

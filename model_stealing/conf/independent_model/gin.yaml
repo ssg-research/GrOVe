@@ -1,0 +1,14 @@
+architecture: gin
+num_epochs: 200
+num_hidden: 256
+num_layers: 3
+fan_out: '10,10,10'
+batch_size: 512
+log_every: 20
+eval_every: 100
+lr: 0.001
+dropout: 0.5
+num_workers: 8
+graphgallery: False
+head: 4
+wd: 0
